@@ -9,23 +9,22 @@
 </head>
 <body>
     <div class="kotak">
-       <label>
     <div class="sis">
         <h1>welcome</h1>
-        <p>game ini adalah game menebak angka dari 1-10</p>
-        <p>angka akan secara acak diundi dan pemain harus menebak angka berapa itu</p>
+        <p>ini adalah game menebak angka dari 1-10!</p>
+        <p>angka akan secara acak dipilih dan pemain harus menebak angka acak ini dengan benar</p>
         <hr>
         <br>
         <div class="angka">
             <input type="number" name="" id="angka" disabled>
             <br>
             <br>
+            <p style="font-size: 10px;">tekan tombol ini untuk memulai, dan jangan tekan lagi jika belum menjawab dengan benar</p>
             <button onclick="tampilkanAngkaAcak()">Tampilkan Angka Acak</button>
         </div>
 <br>
         <div class="jawaban">
-            <input type="number" name="" id="jawaban" style="height: 30px; width: 180px; size: 20px">
-            <br>
+            <input type="number" id="jawaban" min="0" style="height: 30px; width: 180px; size: 20px">
             <button onclick="cekJawaban()">Cek Jawaban</button>
         </div>
 <br>
@@ -40,7 +39,7 @@
             <p>hijau= sudah benar</p>
         </div>
     </div>
-</label> 
 </div>
+<!--creator by melmel smk6 malang (15/09/24)-->
 </body>
 </html>

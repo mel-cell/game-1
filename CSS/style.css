@@ -30,3 +30,10 @@ h1{
 hr{
    margin: 6px;
 }
+.jawaban{
+   display: flex;
+   justify-content: center;
+}
+.jawaban >button{
+   width: 70px;
+}
