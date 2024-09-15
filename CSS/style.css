@@ -1,0 +1,32 @@
+body{
+  
+   height: 100vh;
+   display: flex;
+   justify-content: center;  
+   text-align: center;
+}
+input{
+   height: 200px;
+   width: 200px;
+   text-align: center;
+   font-size: 100px;
+   color: black;
+}
+#angka{
+   background-color: black;
+   color: black;
+}
+p{
+   margin: 0;
+}
+
+#jawaban{
+   font-size: 30px;
+}
+h1{
+   font-size: 60px;
+   margin-bottom: 10px;
+}
+hr{
+   margin: 6px;
+}
